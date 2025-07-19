@@ -1,4 +1,5 @@
 
+import { DialogButton } from "@/components/DialogButton";
 import Hero from "@/components/Hero";
 import MainCard from "@/components/MainCard";
 

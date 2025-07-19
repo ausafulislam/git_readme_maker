@@ -32,7 +32,7 @@ export default function About() {
             social: {
                 github: "https://github.com/ausafulislam",
                 linkedin: "https://linkedin.com/in/ausafulislam",
-                twitter: "https://twitter.com/ausafulislam_h",
+                twitter: "https://x.com/ausafulislam_h",
             },
             bio: "Leads the project with a focus on full-stack development and product architecture. Passionate about building AI-powered tools that enhance developer productivity."
         },
@@ -43,9 +43,20 @@ export default function About() {
             social: {
                 github: "https://github.com/afaqulislam",
                 linkedin: "https://linkedin.com/in/afaqulislam",
-                twitter: "https://twitter.com/afaqulislam708",
+                twitter: "https://x.com/afaqulislam708",
             },
             bio: "Specializes in AI prompt engineering and backend logic. Focused on integrating OpenAI to generate smart, readable, and efficient documentation."
+        },
+        {
+            name: "Imad ul Islam",
+            role: "Co-Creator & Frontend Engineer",
+            avatar: "/profile_images/imad.jpg",
+            social: {
+                github: "https://github.com/imad-ul-islam598",
+                linkedin: "https://www.linkedin.com/in/himadulislam",
+                twitter: "https://x.com/imadulislam598",
+            },
+            bio: "Handles UI/UX design and frontend development. Ensures that users enjoy a smooth and intuitive interface while generating their project documentation."
         },
     ];
 

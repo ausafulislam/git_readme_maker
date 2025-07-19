@@ -11,6 +11,7 @@
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
     "@heroicons/react": "^2.2.0",
+    "@radix-ui/react-dialog": "^1.1.14",
     "@radix-ui/react-slot": "^1.2.3",
     "@radix-ui/react-switch": "^1.2.5",
     "@tailwindcss/typography": "^0.5.16",

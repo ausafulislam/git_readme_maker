@@ -178,7 +178,7 @@ export function ReadmePreview({ content, className }: ReadmePreviewProps) {
     };
 
     return (
-        <div className={`prose dark:prose-invert max-w-none ${className}`}>
+        <div className={` max-w-[300px] ${className}`}>
             <ReactMarkdown remarkPlugins={[remarkGfm]} components={components}>
                 {content}
             </ReactMarkdown>

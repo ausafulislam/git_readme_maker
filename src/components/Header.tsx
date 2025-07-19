@@ -4,6 +4,7 @@ import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { cx } from "../../src/utils";
+import { DialogButton } from "./DialogButton";
 
 export function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -18,7 +19,7 @@ export function Header() {
     const socialLinks = [
         { href: "https://github.com/ausafulislam", icon: <FaGithub className="h-5 w-5" />, label: "GitHub" },
         { href: "https://www.linkedin.com/in/ausafulislam/", icon: <FaLinkedin className="h-5 w-5" />, label: "LinkedIn" },
-        { href: "https://twitter.com/ausafulislam_h", icon: <FaTwitter className="h-5 w-5" />, label: "Twitter" },
+        { href: "https://x.com/ausafulislam_h", icon: <FaTwitter className="h-5 w-5" />, label: "Twitter" },
     ];
 
     // ✅ Fetch GitHub star count
@@ -66,6 +67,7 @@ export function Header() {
                                 {link.label}
                             </Link>
                         ))}
+                        <DialogButton />
                     </nav>
                     <div className="h-6 w-[2px] hidden md:flex  bg-gray-400 mx-2"></div>
 
@@ -134,6 +136,8 @@ export function Header() {
                                 {link.label}
                             </Link>
                         ))}
+                        <DialogButton />
+
                     </nav>
                 )}
             </div>
