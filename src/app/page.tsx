@@ -18,9 +18,7 @@ export default function Home() {
             Simply enter any GitHub URL to analyze the repository and generate a polished README.
           </p>
         </div>
-        <div className="mb-16 flex justify-center lg:mb-0">
           <MainCard />
-        </div>
       </main>
     </>
   );

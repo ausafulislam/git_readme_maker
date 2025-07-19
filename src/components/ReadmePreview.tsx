@@ -178,7 +178,7 @@ export function ReadmePreview({ content, className }: ReadmePreviewProps) {
     };
 
     return (
-        <div className={` max-w-[300px] ${className}`}>
+        <div className={`grid grid-cols-1  gap-1 ${className}`}>
             <ReactMarkdown remarkPlugins={[remarkGfm]} components={components}>
                 {content}
             </ReactMarkdown>

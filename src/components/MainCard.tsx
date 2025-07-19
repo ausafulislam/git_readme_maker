@@ -90,7 +90,7 @@ export default function MainCard({
     };
 
     return (
-        <div className="space-y-8">
+        <div className="space-y-8 flex flex-col items-center justify-center">
             <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
