@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+* {
+  font-family: Lilita One, sans-serif;
+  font-weight: 400;
+}
+
+body {
+  background-color: #f2e6ff;
+}
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    
+    --primary: 262.1 83.3% 57.8%;
+    --primary-foreground: 210 40% 98%;
+    
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+    
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+    
+    --primary: 263.4 70% 50.4%;
+    --primary-foreground: 210 40% 98%;
+  }
+}
+
