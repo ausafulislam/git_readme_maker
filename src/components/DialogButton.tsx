@@ -29,15 +29,15 @@ export function DialogButton() {
 
                         <div className="space-y-4 text-gray-800 text-sm sm:text-base leading-relaxed">
                             <p>
-                                This project is an <strong>AI-powered README Generator</strong> designed to automatically create professional-quality README files based on your GitHub repository.
+                                This project is an <strong>AI-powered README Generator</strong> designed to automatically create professional quality README files based on your GitHub repository.
                             </p>
 
                             <p>
-                                While the AI aims to provide accurate and high-quality content, <strong>mistakes or missing details may occur</strong>. If the generated README doesn't meet your expectations or misses key information:
+                                While the AI aims to provide accurate and high-quality content, <strong>mistakes or missing details may occur</strong>. If the generated README doesn&apos;t meet your expectations or misses key information:
                             </p>
 
                             <ul className="list-disc pl-5">
-                                <li><strong>Regenerate</strong> it once or twice — the output often improves with each attempt.</li>
+                                <li><strong>Regenerate</strong> it once or twice, the output often improves with each attempt.</li>
                             </ul>
 
                             <p>
